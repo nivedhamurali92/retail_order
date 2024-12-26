@@ -22,7 +22,7 @@ if r == "ABOUT":
     """)
     st.title("Retail orders")
     st.snow()
-elif r == "QUERY1_TO_10" and r1:
+elif r == "QUERY1_TO_10":
         r1=st.sidebar.selectbox("SELECT THE QUERIES",["Find top 10 highest revenue generating products",
                                                 "Find the top 5 cities with the highest profit margins",
                                                 "Calculate the total discount given for each category",
